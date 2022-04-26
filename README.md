@@ -30,5 +30,31 @@ git remote add origin (url repozytorium)
 
 git push -u origin main
 
+> Pobieramy zmiany wprowadzone zdalnie na GitHub
+
+git pull
+
+> Sprawdzamy zmiany wprowadzone lokalnie
+
+git status
+
+> Zmiany w pliku dodamy za pomocą polecenia
+
+git add <nazwa_pliku>
+
+> używając
+
+git add -p 
+
+> zobaczymy jakie zmiany zostały dokonane w pliku. Możemy je zaakceptować (y) lub odrzucić:
+
+> Wszystkie zaakceptowane zmiany znowu dodajemy do commita:
+
+git commit -m "twój opis"
+
+> i wypychamy do zdalnego repozytorium za pomocą
+
+git push
+
 *The instruction has been used from URL:* 
 [Git i GitHub dla zielonych: tworzymy pierwsze repozytorium](https://www.flynerd.pl/2018/02/github-dla-zielonych-pierwsze-repozytorium.html)  
