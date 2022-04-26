@@ -3,6 +3,7 @@ This is test repository I want to keep text git from my PC
 
 ## Git comands used: 
 git config --global user.email "you@example.com"
+
 git config --global user.name "Your Name"
 
 git init
@@ -28,3 +29,5 @@ git branch -M main
 git remote add origin (url repozytorium)
 
 git push -u origin main
+
+* The instruction has been used from URL: [Git i GitHub dla zielonych: tworzymy pierwsze repozytorium] (https://www.flynerd.pl/2018/02/github-dla-zielonych-pierwsze-repozytorium.html) * 
